@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and Background </title>
+    <style>
+        #firstpara{
+            background-color: red;
+            border: 4px solid black;
+            /* border-width: 50px; */
+            /* border-color: green; */
+            /* border-style:solid; */
+            height: 100px;
+            width: 100px;
+            border-radius: 11px;
+        }
+        #secondpara{
+            background-color: red;
+            border: 10px solid black;
+            height: 100px;
+            width: 100px;
+            border-top: 10px solid black;
+            border-right: 10px solid blue;
+            border-left: 10px solid green;
+            border-bottom: 10px solid yellowgreen;
+            
+            border-radius: 11px;
+            border-top-left-radius: 11px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 25px;
+        }
+        #thirdpara{
+            background-color: red;
+            background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/1572B/production/_88615878_976x1024n0037151.jpg');
+            background-repeat:no-repeat; /* to stop repetition of backgrounf images if occuring */
+            background-position: 10px 20px;
+            /* background-position: top right; */
+            /* background-position: top left; */
+            /* background-position: top center; */
+            background-position: bottom center;
+            border: 4px solid black;
+            height: 500px;
+            width: 300px;
+            border-radius: 11px;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is my first heading</h1>
+    <p id="firstpara">this is my first paragaph</p>
+    
+    <h1>this is my second heading</h1>
+    <p id="secondpara">this is my first paragaph</p>
+    
+    <h1>this is my third heading</h1>
+    <p id="thirdpara">this is my first paragaph</p>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!-- Content  - The content of the box, where text and images appear.
+     Padding  - It clears an area around the content. The padding is transparent.
+     Border   - A border is one that covers the padding and content.
+     Margin   - It clears an area outside the border. The margin is also transparent. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Margin and Padding </title>
+    <style>
+        .container{
+            background-color: #51ffa7;
+            border: 3px solid #31a9a9;
+
+            /* margin and padding can be set from all the four sides */
+            /* padding-left: 50px;
+            padding-right: 100px;
+            padding-top: 30px;
+            padding-bottom: 50px;
+            margin-top: 50px;
+            margin-left: 30px;
+            margin-bottom: 100px;
+            margin-right: 50px; */
+
+            /* margin = top right bottom left
+            padding = top right bottom left */
+            margin: 30px 50px 30px 80px;
+            padding: 30px 100px 20px 70px;
+            /* padding: 23px 45px; if you want to keep the top down or left right padding same  */
+            border-radius:  50px;
+            width: 500px;
+        }
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>this is the heading</h1>
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, adipisci id quos laborum itaque voluptatibus veritatis omnis culpa repudiandae iure minus vitae sapiente consectetur ab sint modi animi ducimus ad?</p>
+    </div>
+    <div class="container">
+        <h1>this is the heading</h1>
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, adipisci id quos laborum itaque voluptatibus veritatis omnis culpa repudiandae iure minus vitae sapiente consectetur ab sint modi animi ducimus ad?</p>
+    </div>
+    <div class="container">
+        <h1>this is the heading</h1>
+        <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, adipisci id quos laborum itaque voluptatibus veritatis omnis culpa repudiandae iure minus vitae sapiente consectetur ab sint modi animi ducimus ad?</p>
+    </div>
+</body>
+</html>
